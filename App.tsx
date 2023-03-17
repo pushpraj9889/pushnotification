@@ -19,6 +19,9 @@ const Pushnotification = () => {
 
     //  when app will be in foreground state
   }, []);
+  {
+    ForeGroundHandler();
+  }
 
   const checkToken = async () => {
     const fcmToken = await messaging().getToken();
@@ -29,7 +32,7 @@ const Pushnotification = () => {
   };
   return (
     <View style={styles.Container}>
-      <ForeGroundHandler />
+      {/* <ForeGroundHandler /> */}
       <Text style={styles.paragraph}>
         {'Push Notification With Firebasse Demo'}
       </Text>
