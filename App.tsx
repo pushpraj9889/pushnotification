@@ -32,7 +32,6 @@ const Pushnotification = () => {
   };
   return (
     <View style={styles.Container}>
-      {/* <ForeGroundHandler /> */}
       <Text style={styles.paragraph}>
         {'Push Notification With Firebasse Demo'}
       </Text>
