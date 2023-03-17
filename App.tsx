@@ -4,7 +4,7 @@ import Pushnotification from './src/notificationScreen';
 
 export default function App() {
   return (
-    <View>
+    <View style={{flex: 1}}>
       <Pushnotification />
     </View>
   );
